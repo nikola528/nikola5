@@ -1,0 +1,474 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
+#header{
+    width: 100%;
+    height: 120px;
+    background-color: #000000 ;
+    display: flex;
+    position: relative;
+}
+#logo{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    gap: 10px
+}
+#logo h1{
+    font-size: 50px;
+}
+#logo a{
+    display: flex;
+    text-decoration: none;
+    gap: 10px;
+}
+.red{
+    color: #FF0000;
+    text-transform: uppercase;
+}
+#prijava{
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    padding-right: 20px;
+}
+#prijava form{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    text-align: center;
+}
+#prijava input{
+    color: black;
+}
+#Name,#Password{
+    border-radius: 20px 20px 20px 20px;
+}
+#navigation{
+    width: 35%;
+    height: 40px;
+ background-color: rgba(00,00, 00, 0.3);
+    position: absolute;
+    bottom: -40px;
+    left: 650px;
+    display: flex;
+    justify-content: center;
+    border-radius: 0px 0px 20px 20px;
+}
+#navigation nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+gap: 30px;
+font-size: 20px;
+}
+#navigation nav li{
+list-style-type: none;
+}
+#navigation a:hover{
+    background-color: #555;
+    color: #ffcc00;
+    transform: translateY(-3px);
+    border-radius: 5px;
+}
+#navigation nav a{
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+}
+.selected{
+    color: #ffcc00;
+}
+#container{
+    width: 100%;
+    height: 900px;
+    background-image: url("../Img/pexels-leonardho-1552242.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    top: 30px;
+}
+.side{
+    width: 45%;
+    height: 100%;
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.side h2{
+    display: flex;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+.side p{
+    font-size: 30px;
+    display: flex;
+}
+.font{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+.font hr{
+    width: 300px;
+}
+.picture{
+    width: 55%;
+    height: 100%;
+    background-image: url("../Img/pexels-binyaminmellish-116077.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#box{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: row;
+}
+#equipment{
+    width: 100%;
+    height: 80%;
+    background: linear-gradient( rgba(0,0,0,1), rgba(162,23,23,1));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+}
+.start{
+    width: 25%;
+    height: 10%;
+    position: absolute;
+    top: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.start h2{
+font-size: 40px;
+}
+.info{
+    width: 50%;
+    height: 60%;
+position: absolute;
+top: 10px;
+display: flex;
+justify-content: center;
+text-align: center;
+position: relative;
+}
+.info ul{
+    list-style-type: none;
+display: flex;
+flex-direction: column;
+gap: 25px;
+}
+.info ul li h2{
+    font-size: 30px;
+}
+.info hr{
+    position: absolute;
+    width: 330px;
+    top: 400px;
+}
+.contact{
+    width: 100%;
+    height: 75%;
+    background-color:#000000;
+    display: flex;
+}
+.picture1{
+    width: 30%;
+    height: 100%;
+background-image: url("../Img/pexels-foadshariyati-29392542.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+.us{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 120px;
+}
+.con{
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+.con hr{
+    width: 400px;
+}
+#wrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.article{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 45px;
+}
+.article i{
+    color: #FF0000;
+    font-size: 60px;
+}
+.article p{
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 40px;
+}
+.footer{
+    width: 100%;
+    height: 60%;
+    background: linear-gradient( rgba(182,16,16,1) 33%, rgba(3,0,0,1) 79%);
+    position: relative;
+}
+.link{
+    width: 200px;
+    height: 30px;
+    position: absolute;
+    top: -40px;
+    text-align: center;
+}
+.list{
+    width: 10%;
+    height: 30%;
+    position: absolute;
+    top: 100px;
+    left: 700px;
+}
+.list ul{
+list-style-type: none;
+text-align: center;
+display: flex;
+flex-direction: column;
+gap: 10px;
+}
+.list ul li{
+    font-size: 20px;
+    font-weight: bold;
+}
+.list ul li a{
+    text-decoration: none;
+}
+.contain{
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    background: linear-gradient( rgba(0,0,0,1), rgba(162,23,23,1));
+}
+#wrap1{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+#t1{
+    width: 20%;
+    height: 100%;
+    background-image: url("../Img/pexels-keiji-yoshiki-31563-176794.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    border-radius: 20px 20px 20px 20px;
+}
+#t2{
+    width: 20%;
+    height: 100%;
+    background-image: url("../Img/pexels-leonardho-1552106.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    border-radius: 20px 20px 20px 20px;
+}
+#t3{
+    width: 20%;
+    height: 100%;
+    background-image: url("../Img/pexels-pixabay-416809.jpg");
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    border-radius: 20px 20px 20px 20px;
+}
+.social{
+    width: 340px;
+    height: 60px;
+    background-color: #000;
+    position: absolute;
+    left: 20px;
+    border-radius: 20px 20px 20px 20px;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    gap: 30px;
+}
+#gall{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+}
+.row{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#g1{
+    width: 20%;
+    height: 100%;
+    background-image: url("../Img/pexels-julia-larson-6455851.jpg");
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#g2{
+    width: 20%;
+    height: 100%;
+    background-image: url("../Img/pexels-glebkrs-2628215.jpg");
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#g3{
+    width: 20%;
+    height: 100%;
+    background-image: url("../Img/pexels-823sl-371049.jpg");
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#g4{
+    width: 20%;
+    height: 100%;
+    background-image: url("../Img/pexels-pixabay-416717.jpg");
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#g5{
+    width: 20%;
+    height: 100%;
+    background-image: url("../Img/pexels-ivan-samkov-4162449.jpg");
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#g6{
+    width: 20%;
+    height: 100%;
+    background-image: url("../Img/pexels-ivan-samkov-4164772.jpg");
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.contain1{
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 80px;
+    background: linear-gradient( rgba(0,0,0,1), rgba(162,23,23,1));
+}
+#naslov{
+    width: 20%;
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#naslov h2{
+    font-size: 60px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: #FF0000;
+}
+#naslov hr{
+    width: 380px;
+}
+#disc{
+  width: 50%;
+  height: 75%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 25px;
+}
+#disc p{
+font-size: larger;
+}
+#disc hr{
+    width: 580px;
+}
+#pic{
+    width: 45%;
+    height: 100%;
+    background-image: url("../Img/1DX_2391.JPG");
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#author{
+    width: 55%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+    text-align: center;
+}
+#broj{
+text-transform: uppercase;
+text-align: center;
+}
+#broj h2{
+    color: #FF0000;
+    font-size: 45px;
+}
+#me p{
+    font-size: 35px;
+}
+.copy{
+    width: 555px;
+    height: 55px;
+    position: absolute;
+    top: 450px;
+    left: 700px;
+}
+.copy p{
+    padding-left: 100px;
+display: flex;
+justify-content: center;
+}
+.copy hr{
+    width: 600px;
+}
